@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+fieldset {
+    margin: auto;
+    width: 300px;
+    height: auto px;
+}
+
+legend {
+    text-align: center;
+    font-family: 'Times New Roman';
+    font-weight: bold;
+    font-size: larger;
+    color: red;
+}
+
+.button {
+    text-align: center;
+}
+
+.p {
+    background-size: contain;
+    background-color: aqua;
+}
+
+.name {
+    color: black;
+    text-align: center;
+
+}

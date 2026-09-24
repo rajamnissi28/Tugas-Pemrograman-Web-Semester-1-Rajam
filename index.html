@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Pendaftaran E-Mail Rajam</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="form-container">
+
+        <h2>Form Pendaftaran E-Mail Baru</h2>
+
+        <form>
+
+            <label for="nama">Nama Lengkap</label>
+            <input 
+                type="text" 
+                id="nama" 
+                name="nama" 
+                placeholder="masukkan nama anda">
+
+            <label for="umur">Umur</label>
+            <input
+                type="date"
+                id="umur"
+                name="umur">
+
+            <label for="alamat">Alamat</label>
+            <textarea 
+                id="alamat" 
+                name="alamat" 
+                placeholder="masukkan alamat rumah/kantor anda"></textarea>
+
+            <label for="e-mail">Alamat E-Mail Baru</label>
+            <input
+                type="text"
+                id="e-mail"
+                name="e-mail"
+                placeholder="ex:someone@rmail.com">
+
+            <label for="password">Password</label>
+            <input 
+                type="text" 
+                id="password" 
+                name="password" 
+                placeholder="masukkan password anda">
+
+            <label>Jenis Kelamin</label>
+
+            <div class="radio-group">
+                <input 
+                    type="radio" 
+                    id="laki" 
+                    name="gender" 
+                    value="Laki-laki">
+
+                <label for="laki">Laki-laki</label>
+
+                <input 
+                    type="radio" 
+                    id="perempuan" 
+                    name="gender" 
+                    value="Perempuan">
+
+                <label for="perempuan">Perempuan</label>
+            </div>
+
+            <label for="jurusan">Jenis Akun</label>
+
+            <select id="jurusan" name="jurusan">
+                <option value="pilihjenisakun">~Pilih Jenis Akun~</option>
+                <option value="pribadi">Pribadi</option>
+                <option value="bisnis">Bisnis</option>
+            </select><br><br>
+            
+            <div class="checkbox-group">
+                <input 
+                    type="checkbox" 
+                    id="coding" 
+                    name="hobi" 
+                    value="Coding">
+
+                <label for="coding">saya memasukkan data saya dengan benar</label><br>
+            </div>
+
+
+
+            <input 
+                type="submit" 
+                value="Daftar">
+
+        </form>
+
+    </div>
+
+</body>
+</html>
